@@ -10,3 +10,23 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else
 */
+
+my_Number=81;
+Friend_number=74;
+if(my_Number>80){
+    if(Friend_number>80){
+        console.log("go for a lunch.");
+    }
+    else if(Friend_number>80 || Friend_number>=60){
+        console.log("good luck next time.");
+    }
+    else if(Friend_number>60 || Friend_number>=40){
+        console.log("keep your friend's message unseen.");
+    }
+    else{
+        console.log("block your friend");
+    }
+}
+else{
+    console.log("go to home and sleep and act sad");
+}
